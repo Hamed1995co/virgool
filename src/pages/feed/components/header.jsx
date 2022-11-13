@@ -3,7 +3,7 @@ import Logo from "../../../assets/logo.png"
 const Header = () => {
     return(
         <>
-            <div className={Styles.header} >
+            <div className={`${Styles.header} ${Styles.wrapper}`}  >
                 <div>
                     <img className={Styles.Logo} src={Logo} alt="logo"/>
                 </div>
