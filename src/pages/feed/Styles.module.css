@@ -1,0 +1,66 @@
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    padding: 32px;
+}
+
+.Logo {
+    width: 64px;
+    height: 64px;
+}
+
+.authlink{
+    display: flex;
+    align-items: center;
+}
+.authlink a{
+    text-decoration: none;
+    padding: 4px 16px ;
+    color: #e32c23;
+    height: 26px;
+}
+
+.authlink a.login {
+    background-color:#e32c23;
+    border-radius: 4px;
+    color: #fff;
+}
+
+/* -------------- */
+/* navbar */
+/* ---------------- */
+
+
+.navbar{
+    background-color: #e32c23;
+    
+}
+
+.navbar ul {
+    max-width: 1000px;
+    margin: 0 auto;
+    list-style-type: none;
+    height: 42px;
+}
+
+.navbar ul li {
+    float: right;
+
+}
+
+.navbar ul li a {
+    display: inline-block;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.navbar ul li a:hover{
+    opacity: 1;
+}
